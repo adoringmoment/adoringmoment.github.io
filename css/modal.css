@@ -1,0 +1,48 @@
+
+.popup-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 100px;
+    width: 100%; /* Full width */
+    height: 100% ; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content */
+.modal-content {
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    overflow: auto;
+}
+
+.portfolio-padding {
+    padding: 20px 0 0 0;
+}
+
+.portfolio-padding > .col-md-8{
+    margin-top: -30px;
+}
+
+.close-popup-modal-text {
+    margin-top: 10px;
+    cursor: pointer;
+    float: right;
+    width: auto;
+    z-index: 1000
+}
+
+.close-popup-modal-text:hover,
+.close-popup-modal-text:focus {
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    line-height: 50px;
+}
