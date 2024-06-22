@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://adoringmoment.com</loc>
+    <lastmod>2022-03-05</lastmod>
+  </url>
+
+  <url>
+    <loc>https://adoringmoment.com/index-fa.html</loc>
+    <lastmod>2022-03-05</lastmod>
+  </url>
+
+  <url>
+    <loc>https://adoringmoment.com/index-ar.html</loc>
+    <lastmod>2022-03-05</lastmod>
+  </url>
+
+  <url>
+    <loc>https://adoringmoment.com/#about</loc>
+    <lastmod>2022-03-03</lastmod>
+  </url>
+
+  <url>
+    <loc>https://adoringmoment.com/#adoringMemories</loc>
+    <lastmod>2022-12-03</lastmod>
+  </url>
+
+  <url>
+    <loc>https://adoringmoment.com/#adoringMemoriesProcess</loc>
+    <lastmod>2022-12-03</lastmod>
+  </url>
+
+  <url>
+    <loc>https://adoringmoment.com/#contact</loc>
+    <lastmod>2022-03-03</lastmod>
+  </url>
+
+</urlset>

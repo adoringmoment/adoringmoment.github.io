@@ -1,0 +1,5 @@
+/* TEAM */
+Author: Shiva Chavoshian
+contact: adoringmoment@gmail.com
+
+Standards: HTML5, CSS3, javascript
