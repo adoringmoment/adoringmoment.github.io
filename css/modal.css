@@ -16,9 +16,8 @@
     bottom: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
-  }
+}
 
-/* Modal Content */
 .modal-content {
     width: 90%;
     height: 90%;
@@ -43,6 +42,11 @@
     position: absolute;
     right: 20px;
     top: 10px;
+}
+
+html[dir="rtl"] .close-popup-modal-text {
+    left: 20px;
+    right: auto;
 }
 
 .close-popup-modal-text:hover,
