@@ -659,7 +659,7 @@ a:active {
 }
 
 .portfolio_item:hover .portfolio_item_hover {
-    opacity: 50%;
+    opacity: 60%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
 }
