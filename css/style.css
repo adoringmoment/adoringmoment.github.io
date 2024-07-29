@@ -705,6 +705,7 @@ a:active {
     background: #f3f3f3
 }
 
+.languages,
 .social {
     padding-left: 0;
     list-style: none;
@@ -712,9 +713,10 @@ a:active {
 }
 
 .social li {
-    float: left;
+    display: inline-block;
 }
 
+.languages li a,
 .social li a {
     color: #333;
     font-size: 35px;
@@ -723,16 +725,17 @@ a:active {
     -webkit-transition: all .3s;
 }
 
+.languages li a:hover,
 .social li a:hover {
     color: #425BB5;
 }
 
-#contact .languages ul li {
+#contact .languages li {
     clear: both;
     margin-bottom: 10px;
 }
 
-#contact .languages ul li a{
+#contact .languages li a{
     font-size: 20px;
 }
 
@@ -773,6 +776,17 @@ a:active {
 }
 
 @media (max-width: 420px) {
+    h4 {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    h4:before {
+        width: 20px;
+        top: 12px;
+        left: -30px;
+    }
+    
     nav ul {
         padding-bottom: 10px;
     }
