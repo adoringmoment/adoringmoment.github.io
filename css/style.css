@@ -739,6 +739,10 @@ a:active {
     font-size: 20px;
 }
 
+#contact .col-md-4 {
+    padding-bottom: 20px;
+}
+
 
 /* Responsive media queries
 ==================================================*/
@@ -762,20 +766,23 @@ a:active {
         font-size: 50px;
         line-height: 50px;
     }
+
     #home,
     .disply-table {
         height: 600px;
     }
+
     .about-border {
         width: 265px;
     }
+
     .portfolio .categories-grid .categories ul li {
         list-style: none;
         margin: 10px 0;
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 425px) {
     h4 {
         font-size: 20px;
         margin-left: 30px;
@@ -790,6 +797,7 @@ a:active {
     nav ul {
         padding-bottom: 10px;
     }
+
     nav li a {
         font-size: 10px;
         padding: 10px 10px;
