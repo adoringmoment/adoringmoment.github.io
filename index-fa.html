@@ -55,13 +55,31 @@
   <!-- header -->
   <header class="navbar-fixed-top navbar-fixed-top-fa right-to-left">
     <nav>
-      <ul>
-        <li><a href="#home" id="style-2">خانه</a></li>
-        <li><a href="#about">درباره ما</a></li>
-        <li><a href="#adoringMemories">خاطرات و هدایا</a></li>
-        <li><a href="#adoringMemoriesProcess">فرایند کار</a></li>
-        <li><a href="#contact">تماس با ما</a></li>
-      </ul>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse" aria-expanded="false">
+          <span class="sr-only">باز و بسته کردن منو اصلی</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="main-navbar-collapse">
+        <ul class="">
+          <li><a href="#home" id="style-2">خانه</a></li>
+          <li><a href="#about">درباره ما</a></li>
+          <li><a href="#adoringMemories">خاطرات و هدایا</a></li>
+          <li><a href="#adoringMemoriesProcess">فرایند کار</a></li>
+          <li><a href="#contact">تماس با ما</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">زبان<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li style="width: 100%;"><a href="index.html">انگلیسی</a></li>
+              <li style="width: 100%;"><a href="index-ar.html">عربی</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </nav>
   </header>
   <!-- ./header -->

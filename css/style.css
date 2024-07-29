@@ -67,10 +67,6 @@ h4:before {
     top: 18px;
 }
 
-.navbar-fixed-top ul li {
-    margin-left: 20px;
-}
-
 .navbar-fixed-top ul li a {
     color: #000;
 }
@@ -257,20 +253,35 @@ header nav {
     background-color: #fff
 }
 
+header .navbar-header {
+    padding: 7px 0;
+}
+
+.navbar-collapse.in {
+    overflow-y: initial;
+}
+
+.dropdown-menu {
+    min-width: 130px;
+}
+
 nav ul {
     display: inline-block;
     padding-left: 0;
     list-style: none;
-    /*padding: 20px;*/
-    padding: 10px;
     margin-bottom: 0;
-    -webkit-transition: all .5s;
-    transition: all .5s;
 }
 
 nav li {
     display: inline-block;
-    margin: 10px;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+nav li:hover {
+    background-color: #eee;
 }
 
 nav li a {
@@ -279,15 +290,17 @@ nav li a {
     color: #444;
     font-size: 11px;
     font-weight: bold;
+    padding: 20px 15px;
+    display: inline-block;
+}
+
+nav .icon-bar {
+    background-color: #333;
 }
 
 .bg-nav {
     background: #fff;
     border-bottom: 1px solid #f3f3f3
-}
-
-.bg-nav ul {
-    padding: 10px;
 }
 
 a:focus {
@@ -760,10 +773,11 @@ a:active {
 }
 
 @media (max-width: 420px) {
-    nav li {
-        margin: 6px;
+    nav ul {
+        padding-bottom: 10px;
     }
     nav li a {
         font-size: 10px;
+        padding: 10px 10px;
     }
 }
