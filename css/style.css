@@ -445,6 +445,13 @@ a:active {
 .timeline-event-copy h4 {
     font-size: 1.2em;
     margin-bottom: 1.2em;
+    margin-left: 30px;
+}
+
+.timeline-event-copy h4::before {
+    top: 10px;
+    width: 20px;
+    left: -30px;
 }
 
 .timeline-event-copy strong {
