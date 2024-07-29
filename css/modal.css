@@ -1,25 +1,35 @@
-
 .popup-modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 100px;
     width: 100%; /* Full width */
     height: 100% ; /* Full height */
     overflow: auto; /* Enable scroll if needed */
+    top: 0%;
+    left: 0%;
+    z-index: 10000;
 }
+
+.popup-modal-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 
 /* Modal Content */
 .modal-content {
-    margin: 0 auto;
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
+    max-width: 800px;
     overflow: auto;
+    transform: translateY(5%);
+    margin: 0 auto;
 }
 
 .portfolio-padding {
-    padding: 20px 0 0 0;
+    padding: 20px;
 }
 
 .portfolio-padding > .col-md-8{
@@ -27,11 +37,12 @@
 }
 
 .close-popup-modal-text {
-    margin-top: 10px;
     cursor: pointer;
-    float: right;
     width: auto;
-    z-index: 1000
+    z-index: 1000;
+    position: absolute;
+    right: 20px;
+    top: 10px;
 }
 
 .close-popup-modal-text:hover,
