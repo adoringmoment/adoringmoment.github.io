@@ -47,15 +47,15 @@ $(document).ready(function () {
 
     // Menu opacity
     if ($(window).scrollTop() > 80) {
-        $(".navbar-fixed-top").addClass("bg-nav");
+        $("#top-navbar").addClass("bg-nav");
     } else {
-        $(".navbar-fixed-top").removeClass("bg-nav");
+        $("#top-navbar").removeClass("bg-nav");
     }
     $(window).scroll(function () {
         if ($(window).scrollTop() > 80) {
-            $(".navbar-fixed-top").addClass("bg-nav");
+            $("#top-navbar").addClass("bg-nav");
         } else {
-            $(".navbar-fixed-top").removeClass("bg-nav");
+            $("#top-navbar").removeClass("bg-nav");
         }
     });
 
