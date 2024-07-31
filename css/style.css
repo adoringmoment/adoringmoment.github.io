@@ -266,6 +266,10 @@ header .navbar-header {
     min-width: 130px;
 }
 
+.caret {
+    margin-left: 5px;
+}
+
 nav ul {
     display: inline-block;
     padding-left: 0;

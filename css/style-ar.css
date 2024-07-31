@@ -280,6 +280,10 @@ header .navbar-header {
     min-width: 130px;
 }
 
+.caret {
+    margin-right: 5px;
+}
+
 nav ul {
     display: inline-block;
     padding-right: 0;
@@ -730,13 +734,13 @@ a:active {
 }
 
 .section .container h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Dubai-Medium', sans-serif;
     font-size: 42px;
     line-height: 50px;
 }
 
 .section .container h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Dubai-Medium', sans-serif;
     font-size: 40px;
     line-height: 50px;
 }
